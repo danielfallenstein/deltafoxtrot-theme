@@ -989,3 +989,20 @@ div#page {
 	margin: 20px 20px 20px 20px;
 	width: 640px;
 }
+a {
+	color: #555;
+	}
+a:hover{
+	color: #ccc;
+}
+a:visited{
+	color: #444;
+}
+span.comments-link{
+	display: block;
+	clear: both;
+}
+body.blog article.post {
+	padding-bottom: 20px;
+	border-bottom: 5px solid #555;
+}
