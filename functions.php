@@ -79,6 +79,7 @@ if ( ! function_exists( 'deltafoxtrot_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'video', 'image' ) );
 	}
 endif;
 add_action( 'after_setup_theme', 'deltafoxtrot_setup' );
