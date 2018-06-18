@@ -2,7 +2,7 @@
 
 This is the theme for [daniel.fallenste.in](https://daniel.fallenste.in).
 
-It's based on [_s_](https://underscores.me).
+It's based on the [underscores theme](https://underscores.me).
 
 Its goal is to serve as a base for [POSSE](https://indieweb.org/POSSE) Social networking  as well as a long form content.
 
