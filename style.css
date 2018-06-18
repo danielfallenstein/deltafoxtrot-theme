@@ -842,19 +842,20 @@ a:hover, a:active {
 	display: block;
 }
 
-.hentry {
+/* COMMENTED OUT .hentry {
 	margin: 0 0 1.5em;
-}
+} */
 
 .updated:not(.published) {
 	display: none;
 }
 
+/* COMMENTED OUT
 .page-content,
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
-}
+}*/
 
 .page-links {
 	clear: both;
