@@ -991,7 +991,7 @@ div#page {
 	background-color: #FFF;
 }
 /*Side Padding for Header and Footer*/
-header#masthead, footer#colophon {padding: 0 10px}
+header#masthead, footer#colophon, body.single #primary, body.page #primary {padding: 0 10px}
 /* Asides */
 
 body.blog article.format-aside{background: #333; margin:0 0 0 0; color: #CCC;}
@@ -1009,6 +1009,9 @@ a:hover{
 a:visited{
 	color: #404040;
 }
+/*BLOCKQUOTES*/
+blockquote{border-left: 5px solid #555;padding-left: 10px;}
+
 span.comments-link{
 	display: block;
 	clear: both;
