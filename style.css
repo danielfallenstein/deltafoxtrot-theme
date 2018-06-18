@@ -993,10 +993,10 @@ a {
 	color: #555;
 	}
 a:hover{
-	color: #ccc;
+	color: #333;
 }
 a:visited{
-	color: #444;
+	color: #404040;
 }
 span.comments-link{
 	display: block;
