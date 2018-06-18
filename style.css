@@ -988,7 +988,18 @@ object {
 div#page {
 	margin: 20px 20px 20px 20px;
 	width: 640px;
+	background-color: #FFF;
 }
+/*Side Padding for Header and Footer*/
+header#masthead, footer#colophon {padding: 0 10px}
+/* Asides */
+
+body.blog article.format-aside{background: #333; margin:0 0 0 0; color: #CCC;}
+body.blog article.format-aside header{display: none;}
+body.blog article.format-aside a {color: #FFF;}
+body.blog article.format-aside a:hover {color: #111;}
+body.blog article.format-aside a:visited {color: #CCC;}
+/*Links*/
 a {
 	color: #555;
 	}
@@ -1001,10 +1012,12 @@ a:visited{
 span.comments-link{
 	display: block;
 	clear: both;
+	float: right;
 }
 body.blog article.post {
-	padding-bottom: 20px;
+	padding: 0 10px 20px 10px;
 	border-bottom: 5px solid #555;
+
 }
 li.menu-item {margin-right: 10px;}
 li.menu-item a{text-decoration: underline;}
