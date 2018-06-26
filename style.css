@@ -1026,12 +1026,3 @@ body.blog article.post {
 li.menu-item {margin-right: 10px;}
 li.menu-item a{text-decoration: underline;}
 
-article.format-gallery .entry-title::before, article.format-image .entry-title::before {
-	content: "📷 ";
-}
-article.format-link .entry-title::before {
-	content: "🔗 ";
-}
-article.format-video .entry-title::before {
-	content: "🎥 ";
-}
