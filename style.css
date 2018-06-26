@@ -987,8 +987,9 @@ object {
 # Daniel's Additions
 --------------------------------------------------------------*/
 div#page {
-	margin: 20px 20px 20px 20px;
-	width: 640px;
+	margin: 0px 20px 0px 20px;
+	width: 90%;
+	max-width: 640px;
 	background-color: #FFF;
 }
 /*Side Padding for Header and Footer*/
@@ -1019,7 +1020,7 @@ span.comments-link{
 	float: right;
 }
 body.blog article.post {
-	padding: 0 10px 20px 10px;
+	padding: 0 10px 30px 10px;
 	border-bottom: 5px solid #555;
 
 }
