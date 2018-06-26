@@ -986,14 +986,17 @@ object {
 /*--------------------------------------------------------------
 # Daniel's Additions
 --------------------------------------------------------------*/
+
+/*Page Layout*/
+
 div#page {
 	margin: 0px 20px 0px 20px;
 	width: 90%;
 	max-width: 640px;
 	background-color: #FFF;
 }
-/*Side Padding for Header and Footer*/
 header#masthead, footer#colophon, body.single #primary, body.page #primary {padding: 0 10px}
+#content {padding-top: 50px;}
 /* Asides */
 
 body.blog article.format-aside{background: #333; margin:0 0 0 0; color: #CCC;}
@@ -1014,6 +1017,8 @@ a:visited{
 /*BLOCKQUOTES*/
 blockquote{border-left: 5px solid #555;padding-left: 10px;}
 
+
+/*Additions on Single Posts*/
 span.comments-link{
 	display: block;
 	clear: both;
