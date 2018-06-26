@@ -1015,7 +1015,7 @@ a:visited{
 	color: #404040;
 }
 /*BLOCKQUOTES*/
-blockquote{border-left: 2px solid #555;padding-left: 10px;}
+blockquote{border-left: 1px solid #555;padding-left: 10px;}
 
 
 /*Additions on Single Posts*/
@@ -1026,7 +1026,7 @@ span.comments-link{
 }
 body.blog article.post {
 	padding: 0 10px 30px 10px;
-	border-bottom: 2px solid #555;
+	border-bottom: 1px solid #555;
 
 }
 li.menu-item {margin-right: 10px;}
