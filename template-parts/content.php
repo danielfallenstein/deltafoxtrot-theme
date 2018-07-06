@@ -11,7 +11,13 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php
+			<div class="entry-meta">
+				<?php
+				deltafoxtrot_posted_on();
+				deltafoxtrot_posted_by();
+				?>
+			</div><!-- .entry-meta -->
+			<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -20,12 +26,7 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				deltafoxtrot_posted_on();
-				deltafoxtrot_posted_by();
-				?>
-			</div><!-- .entry-meta -->
+
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
