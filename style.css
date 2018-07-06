@@ -1025,7 +1025,7 @@ span.comments-link{
 	float: right;
 }
 body.blog article.post {
-	padding: 0 10px 30px 10px;
+	padding: 30px 10px 30px 10px;
 	border-bottom: 1px solid #555;
 
 }
