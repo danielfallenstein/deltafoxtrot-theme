@@ -26,7 +26,7 @@ if ( ! function_exists( 'deltafoxtrot_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'post date', 'deltafoxtrot' ),
+			esc_html_x( 'Posted on %s', 'post date', 'deltafoxtrot' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
