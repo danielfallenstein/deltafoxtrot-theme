@@ -1031,6 +1031,9 @@ body.blog article.post {
 }
 li.menu-item {margin-right: 10px;}
 li.menu-item a{text-decoration: underline;}
+body.blog article header .entry-meta{display: inline;}
+body.blog article header .entry-title{display: inline; margin-left: 16px; font-size: 16px;}
+
 
 body.blog article.format-link header a{text-decoration: none; font-size: 16px;}
 article.format-audio .post-thumbnail,article.format-video .post-thumbnail{display:none;}
